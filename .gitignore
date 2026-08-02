@@ -1,0 +1,66 @@
+# ═══════════════════════════════════════════════════════════
+# SUIDAC-Assosa-Playgrounds — .gitignore
+# ═══════════════════════════════════════════════════════════
+
+# ── AutoCAD / Drafting ─────────────────────────────────────
+*.bak
+*.tmp
+*.sv$
+*.dwl
+*.dwl2
+*.idx
+*.lsp
+*~
+*.ctb          # Plot style tables (team should share via repo)
+*.pc3          # Plotter configs (machine-specific, don't commit)
+
+# ── OS Generated ───────────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+*.whl
+
+# ── Virtual Environments ───────────────────────────────────
+.venv/
+venv/
+env/
+.env
+.env.local
+
+# ── Jupyter / Notebooks ─────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Large Design Binaries (use Git LFS for these) ──────────
+*.psd
+*.ai
+*.indd
+
+# ── Archive / Superseded ───────────────────────────────────
+*_archive/
+*_old/
+
+# ── Editor / IDE ───────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Misc ────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
